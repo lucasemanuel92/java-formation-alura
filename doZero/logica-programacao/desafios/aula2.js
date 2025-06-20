@@ -1,4 +1,4 @@
-// Resolução dos desafios da aula 01.Iniciando com JavaScript
+// Resolução dos desafios da aula 02.Iniciando com JavaScript
 // Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". 
 // Caso contrário, mostre "Boa semana!".
 let diaDaSemana = prompt('Qual é o dia da Semana hoje?');
