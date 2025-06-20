@@ -1,12 +1,12 @@
 alert('Bem Vindo ao Jogo do Número Secreto');
-let numeroSecreto = 5;
+let numeroSecreto = parseInt(Math.random() * 100 + 1);
 let guess;
 // Iniciando o contador
 let counter = 1;
 
 // Criando laço enquanto (while)
 while (guess != numeroSecreto) {
-    guess = prompt('Escolha um numero entre 1 e 10');
+    guess = prompt('Escolha um numero entre 1 e 100');
     // Criando a comparação/condição
     if (guess == numeroSecreto) {
             
