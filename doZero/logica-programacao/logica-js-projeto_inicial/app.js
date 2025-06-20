@@ -1,12 +1,13 @@
 alert('Bem Vindo ao Jogo do Número Secreto');
-let numeroSecreto = parseInt(Math.random() * 100 + 1);
+let  numeroMaximo = 5000;
+let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1);
 let guess;
 // Iniciando o contador
 let counter = 1;
 
 // Criando laço enquanto (while)
 while (guess != numeroSecreto) {
-    guess = prompt('Escolha um numero entre 1 e 100');
+    guess = prompt(`Escolha um numero entre 1 e ${numeroMaximo}`);
     // Criando a comparação/condição
     if (guess == numeroSecreto) {
             
