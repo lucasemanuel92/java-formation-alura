@@ -21,10 +21,6 @@ while (guess != numeroSecreto) {
     }
 }
 
-if (counter > 1) {
-    alert(`Você acertou. O numero secreto é ${numeroSecreto}, com ${counter} tentativas`);
-} else {
-    alert(`Você acertou. O numero secreto é ${numeroSecreto}, com ${counter} tentativa`);
-}
-
-
+// contador > 1 ? 'faça isso' caso contrario 'faça isso'
+let palavraTentativa = counter > 1 ? 'tentantivas' : 'tentativa'
+alert(`Isso ai! Você descobriu o número secreto ${numeroSecreto} com ${counter} ${palavraTentativa}`);
