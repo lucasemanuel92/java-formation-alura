@@ -9,7 +9,8 @@ while (guess != numeroSecreto) {
     guess = prompt('Escolha um numero entre 1 e 10');
     // Criando a comparação/condição
     if (guess == numeroSecreto) {
-        alert(`Você acertou. O numero secreto é ${numeroSecreto}, com ${counter} tentativas`);
+            
+            break;
     } else {
         if (guess > numeroSecreto) {
             alert(`O numero secreto é menor que ${guess}`);
@@ -19,3 +20,11 @@ while (guess != numeroSecreto) {
         counter++;
     }
 }
+
+if (counter > 1) {
+    alert(`Você acertou. O numero secreto é ${numeroSecreto}, com ${counter} tentativas`);
+} else {
+    alert(`Você acertou. O numero secreto é ${numeroSecreto}, com ${counter} tentativa`);
+}
+
+
