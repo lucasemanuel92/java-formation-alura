@@ -13,3 +13,19 @@ while (counter >= 0) {
     counter--;
 }
 
+// Crie um programa de contagem regressiva. Peça um número e conte deste número até 0, 
+// usando um loop while no console do navegador.
+let contadorRegressivo = prompt('Digite o número que a contagem regressiva irá iniciar: ');
+while (contadorRegressivo >= 0) {
+    console.log(contadorRegressivo);
+    contadorRegressivo--;
+}
+
+// Crie um programa de contagem progressiva. Peça um número e conte de 0 até esse número, 
+// usando um loop while no console do navegador.
+let contador = 0;
+let contadorProgressivo = prompt('Digite o número que a contagem irá começar: ');
+while (contador != contadorProgressivo) {
+    console.log(contador);
+    contador++;
+}
