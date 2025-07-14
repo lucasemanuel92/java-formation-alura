@@ -5,3 +5,8 @@ titulo.innerHTML = 'Jogo do Número Secreto';
 
 let paragrafo = document.querySelector('p');
 paragrafo.innerHTML = 'Escolha um número entre 1 - 10';
+
+// Criando uma função atráves de um botão "onclick"
+function verificarChute() { 
+    
+}
