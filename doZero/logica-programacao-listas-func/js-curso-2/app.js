@@ -7,7 +7,7 @@
 // let paragrafo = document.querySelector('p');
 // paragrafo.innerHTML = 'Escolha um número entre 1 - 10';
 
-
+let numeroSecreto = geradorNumero(); 
 // Crio a função
 function exibirTextos(tag, texto) {
     let campo = document.querySelector(tag);
@@ -19,6 +19,12 @@ exibirTextos('p', 'Escolha um número entre 1 e 10');
 
 // Criando uma função atráves de um botão "onclick"
 function verificarChute() { 
-    
+    console.log(numeroSecreto)
+}
+
+// Para criar um gerador de número aleatório
+function geradorNumero() {
+    // Se eu chamar sem o return, ela apenas executa, mas não salva em nenhum lugar 
+    return parseInt(Math.random() * 10 + 1) 
 }
 
