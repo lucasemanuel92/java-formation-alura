@@ -1,11 +1,11 @@
-//  MODELO BÁSICO, MAS NÃO É
-    // Alterar o valor selecionando um valor 
-// let titulo = document.querySelector('h1');
-    // Altera dentro do HTML o elemento com esse título
-// titulo.innerHTML = 'Jogo do Número Secreto';
+//  MODELO BÁSICO, MAS NÃO É O MELHOR A FAZER
+        // Alterar o valor selecionando um valor 
+    // let titulo = document.querySelector('h1');
+        // Altera dentro do HTML o elemento com esse título
+    // titulo.innerHTML = 'Jogo do Número Secreto';
 
-// let paragrafo = document.querySelector('p');
-// paragrafo.innerHTML = 'Escolha um número entre 1 - 10';
+    // let paragrafo = document.querySelector('p');
+    // paragrafo.innerHTML = 'Escolha um número entre 1 - 10';
 
 let numeroSecreto = geradorNumero(); 
 // Crio a função
@@ -19,7 +19,8 @@ exibirTextos('p', 'Escolha um número entre 1 e 10');
 
 // Criando uma função atráves de um botão "onclick"
 function verificarChute() { 
-    console.log(numeroSecreto)
+    // O 'value' é usado para pegar apenas o valor colocado dentro do input
+    let chute = document.querySelector('input').value;
 }
 
 // Para criar um gerador de número aleatório
